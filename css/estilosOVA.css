@@ -12,8 +12,8 @@ body{
 }
 .ova{
     width: 1000px;
-    height: 600px; 
-    background: url(../images/home.jpg) no-repeat;
+    height: 825px; 
+    background: url(../images/home.png) no-repeat;
 }
 .top{
     background: #FFF url(../images/top.jpg) no-repeat;
@@ -78,65 +78,23 @@ body{
     position: absolute;
     margin: 0 0 0 230px;
 }
-.btnHome1{
-    background: url(../images/btn01-Home.png) no-repeat;
-    width: 85px;
-    height: 85px;
+.btnHome{
+    background: url(../images/btn_popup.png) no-repeat;
+    width: 30px;
+    height: 30px;
     position: absolute;
-    margin: 220px 0 0 197px;
     cursor: pointer;
-    /*top: 133px;
-    /*left: 412px;*/
+    background-size: 30px 30px;
 }
-.btnHome2{
-    background: url(../images/btn02-Home.png) no-repeat;
-    width: 85px;
-    height: 85px;
-    position: absolute;
-    margin: 176px 0 0 306px;
-    cursor: pointer;
-    /*top: 210px;
-    /*left: 412px;*/
+
+.btnHome-pos1{
+    margin: 216px 0 0 464px;
 }
-.btnHome3{
-    background: url(../images/btn03-Home.png) no-repeat;
-    width: 85px;
-    height: 85px;
-    position: absolute;
-    margin: 220px 0 0 427px;
-    cursor: pointer;
+.btnHome-pos2{
+    margin: 120px 0 0 197px;
 }
-.btnHome4{
-    background: url(../images/btn04-Home.png) no-repeat;
-    width: 85px;
-    height: 85px;
-    position: absolute;
-    margin: 348px 0 0 453px;
-    cursor: pointer;
-}
-.btnHome5{
-    background: url(../images/btn05-Home.png) no-repeat;
-    width: 85px;
-    height: 85px;
-    position: absolute;
-    margin: 451px 0 0 376px;
-    cursor: pointer;
-}
-.btnHome6{
-    background: url(../images/btn06-Home.png) no-repeat;
-    width: 85px;
-    height: 85px;
-    position: absolute;
-    margin: 451px 0 0 246px;
-    cursor: pointer;
-}
-.btnHome7{
-    background: url(../images/btn07-Home.png) no-repeat;
-    width: 85px;
-    height: 85px;
-    position: absolute;
-    margin: 348px 0 0 168px;
-    cursor: pointer;
+.btnHome-pos3{
+    margin: 420px 0 0 197px;
 }
 .imgCentral{
     margin: 0px 0px 39px -304px;
