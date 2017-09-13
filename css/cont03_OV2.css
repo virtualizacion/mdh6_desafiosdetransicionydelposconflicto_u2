@@ -41,10 +41,79 @@ body{
     margin: 100px 0 0 60px;
 }
 
-.btnExtras{
-    margin-top: -60px;
-    margin-left: 700px;
+.btnExtras1{
+    margin-top: -246px;
+    margin-left: 26px;
     position: absolute;
+}
+
+.btnExtras2{
+    margin-top: -246px;
+    margin-left: 144px;
+    position: absolute;
+}
+
+.btnExtras3{
+    margin-top: -246px;
+    margin-left: 264px;
+    position: absolute;
+}
+.btnExtras4{
+    margin-top: -189px;
+    margin-left: 25px;
+    position: absolute;
+}
+.btnExtras5{
+    margin-top: -189px;
+    margin-left: 144px;
+    position: absolute;
+}
+.btnExtras6{
+    margin-top: -189px;
+    margin-left: 264px;
+    position: absolute;
+}
+.btnExtras7{
+    margin-top: -130px;
+    margin-left: 26px;
+    position: absolute;
+}
+
+.btnExtras8{
+    margin-top: -130px;
+    margin-left: 144px;
+    position: absolute;
+}
+
+.btnExtras9{
+    margin-top: -130px;
+    margin-left: 264px;
+    position: absolute;
+}
+.btnExtras10{
+    margin-top: -69px;
+    margin-left: 25px;
+    position: absolute;
+}
+.btnExtras11{
+    margin-top: -69px;
+    margin-left: 144px;
+    position: absolute;
+}
+.btnExtras12{
+    margin-top: -69px;
+    margin-left: 264px;
+    position: absolute;
+}
+.btnExtras13{
+    margin-top: -69px;
+    margin-left: 382px;
+    position: absolute;
+}
+.btnP1{
+   
+    margin: -54px 0 -6px -37px;
+    cursor: pointer;
 }
 
 .cont{
@@ -61,54 +130,16 @@ body{
     top: -11px;
     cursor: pointer;
 }
-
-.posExtras1{
-    margin-top: -78px;
-    margin-left: 47px;
-}
-
-.posExtras2{
-    margin-top: -408px;
-    margin-left: 683px;
-}
-
 .textTab1{
     padding-bottom: 142px;
     padding-left: 15px;
 }
-
-.textTab2{
-    padding-bottom: 140px;
-    /* width: 356px; */
-    padding-left: 15px;
-}
-
-.imgTab1{
-    width: 334px;
-    padding-bottom: 7px;
-}
-
-.imgTab2{
-    width: 334px;
-    padding-bottom: 18px;
-}
-
-.imgTab3{
-    width: 334px;
-    padding-bottom: 28px;
-}
-
-.imgTab4{
-    width: 334px;
-    padding-bottom: 0px;
-}
-
 .btn_tab_col{
-    background-color: rgb(112, 112, 112);
+    background-color: transparent;
     border: 1px solid;
-    width: 189.2px;
+    width: 110px;
+    height: 53px;
 }
-
 .cont_tab_pos{
     margin-left: 25px;
 }
@@ -120,17 +151,6 @@ body{
 .pos_tab_cont{
     margin-top: 185px;
 }
-/*
-.posExtras3{
-    margin-top: -96px;
-    margin-left: 827px;
-}
-
-.posExtras4{
-    margin-top: -72px;
-    margin-left: 443px;
-}*/
-
 .cont_tab_s{
     width: 763px;
     border: 1px solid;
