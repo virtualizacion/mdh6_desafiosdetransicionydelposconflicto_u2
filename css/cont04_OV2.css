@@ -46,7 +46,18 @@ body{
     margin-left: 700px;
     position: absolute;
 }
-
+.btnExtras2{
+    margin-top: -198px;
+    margin-left: 39px;
+    position: absolute;
+    cursor: pointer;
+}
+.btnExtras3{
+    margin-top: -198px;
+    margin-left: 223px;
+    position: absolute;
+    cursor: pointer;
+}
 .cont{
     position: absolute;
     left: 50%;
@@ -68,71 +79,10 @@ body{
     background: rgba(37, 48, 16, 0.95);
     position: absolute;
     z-index: 3;
-}
-
+}  
 .posExtras1{
-    border: 1px solid;
-    margin: -340px 0px 296px 59px;
-    width: 131px;
-    height: 51px;
-    background-color: #09043e;
-}
-.posExtras2{
-    border: 1px solid;
-    margin: -352px 0px 310px 191px;
-    width: 131px;
-    height: 51px;
-    background-color: #09043e;
-}
-.posExtras3{
-    border: 1px solid;
-    margin: -368px 0px 324px 322px;
-    width: 131px;
-    height: 51px;
-    background-color: #09043e;
-}
-.posExtras4{
-    border: 1px solid;
-    margin: -381px 0px 338px 453px;
-    width: 131px;
-    height: 51px;
-    background-color: #09043e;
-}    
-.posExtras5{
-    border: 1px solid;
-    margin: -396px 0px 352px 584px;
-    width: 131px;
-    height: 51px;
-    background-color: #09043e;
-} 
-.posExtras6{
-    border: 1px solid;
-    margin: -408px 0px 367px 716px;
-    width: 131px;
-    height: 51px;
-    background-color: #09043e;
-} 
-.posExtras7{
-    margin-top: -99px;
-    margin-left: 833px;
-}
-.posExtras8{
-    padding: 19px;
-    margin: -369px 0px 260px 60px;
-    width: 754px;
-    height: 120px;
-    background-color: #ffffff;
-} 
-.posExtras9{
-    padding: 19px;
-    margin: -369px 0px 247px 60px;
-    width: 752px;
-    height: 150px;
-    background-color: #ffffff;
-}   
-.posExtras10{
-    margin-top: -75px;
-    margin-left: 57px;
+    margin-top: -50px;
+    margin-left: 426px;
 }
 /*-------------------------------------------------*/
 .contP1{
@@ -157,9 +107,10 @@ body{
 }
 
 .btn_tab_col{
-    background-color: #120d44;
+    background-color: transparent;
     border: 1px solid;
-    width: 134px;/**/
+    width: 139px;
+    height: 183px;
 }
 
 .cont_tab_pos{
