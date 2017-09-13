@@ -143,22 +143,22 @@
 /*ajustes por defecto jpages*/
 
 .flechaNaranjaDerecha{
-    background: url('../images/flecha_der.png') no-repeat center!important;
+    background: url('../images/flecha_der1.png') no-repeat center!important;
 }
 
 .flechaNaranjaIzquierda{
-    background: url('../images/flecha_iz.png') no-repeat center!important;
+    background: url('../images/flecha_izq1.png') no-repeat center!important;
 }
 
 .arrowPrev, .arrowNext{
-    width: 45px;
+    width: 56px;
     height: 46px;
     position: absolute;
-    top: 55px;
+    top: 15px;
     cursor: pointer;
-    /*border: 1px solid;*/
-    border-radius: 100%;
-    background-color: #c1272d!important;
+    /* border: 1px solid; */
+    /* border-radius: 100%; */
+    /* background-color: #c1272d!important; */
     opacity: 1;
 }
 
@@ -176,16 +176,27 @@
     background: url('../images/arrowP.svg') no-repeat;
     left: 0px;
     z-index: 2;    
-    margin: -50px 0 0 -48px;
+    margin: -50px 0 0 -50px;
 }
 .arrowNext{
     background: url(../images/arrowN.svg) no-repeat;
     right: 0px;    
     z-index: 2;
-    margin: -50px -102px 0 0;
+    margin: -50px 30px 0 0;
 }
 
 .arrowPrev.jp-disabled, .arrowNext.jp-disabled{
     display: none;
 }
 /*--------------------------------------------------------------*/
+.btn-gen-cont-img{
+    border: 1px solid black;
+    width: 229px;
+    height: 247px;
+    position: absolute; 
+}
+
+.btn-gen-cont-img-pos{
+    margin-top: -305px;
+    margin-left: 23px;
+}
