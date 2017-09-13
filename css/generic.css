@@ -110,6 +110,16 @@
     height: 40px;
     border: 0px;
 }
+.btn_sin_img{
+    overflow: hidden;
+    width: 256px;
+    height: 268px;
+    position: absolute;
+    margin: 181px 0px 0px 488px;
+    border: 1px solid;
+    background-color: white;
+    padding: 15px;
+}
 /*-------------------------------------------------------------------*/
 
 /*ventanas emergentes-------------------------------------------*/
