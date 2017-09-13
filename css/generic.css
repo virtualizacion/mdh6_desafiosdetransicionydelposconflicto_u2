@@ -193,10 +193,7 @@
     border: 1px solid black;
     width: 229px;
     height: 247px;
-    position: absolute; 
-}
-
-.btn-gen-cont-img-pos{
-    margin-top: -305px;
-    margin-left: 23px;
+    position: absolute;
+    cursor: pointer;
+    margin-top: -305px; 
 }
