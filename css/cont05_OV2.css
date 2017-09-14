@@ -1,12 +1,9 @@
 body{
         overflow: hidden;
-    }
-
-.holder {
-    display: none; 
 }
-
-.customBtns{
+.menuP1{
+    width: 230px;
+    height: 290px;
     position: absolute;
     width: 860px;
     height: 50px;
@@ -166,4 +163,4 @@ body{
     margin-top: -139px;
     width: 137px;
     height: 121px;
-}*/    
+}*/

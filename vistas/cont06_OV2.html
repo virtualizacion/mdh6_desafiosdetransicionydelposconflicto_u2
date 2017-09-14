@@ -3,12 +3,11 @@
 <head>
 
     <meta charset="utf-8">
-    <title>cont02_btn03</title>
+    <title>cont06</title>
 
     <!--  -->
     <link rel="stylesheet" href="css/style_btn.css">
     <link rel="stylesheet" href="css/cont06_OV2.css">
-    <link rel="stylesheet" href="css/cont06_OV2_acordeon.css">
     <link rel="stylesheet" href="css/generic.css">
 
     <!-- jQuery con helper -->
@@ -17,7 +16,7 @@
     <script src="js/helper_functions.js"></script>
     
     <!--<script src="js/bootstrap.min.js"></script>-->
-
+    <script src="js/jPages.js"></script>
     <script src="js/cont06_OV2.js"></script>
 
 </head>
@@ -29,7 +28,13 @@
   <div id="content" class="defaults">
 
    <!-- navigation holder -->
-    <div class="holder"></div> 
+    <div class="holder"></div>
+
+    <!-- wrapped custom buttons for easier styling -->
+    <div class="customBtns">
+        <span class="arrowPrev flechaNaranjaIzquierda"></span>
+        <span class="arrowNext flechaNaranjaDerecha"></span>
+    </div> 
 
     <div class="black black_not_lert">
 
@@ -45,73 +50,19 @@
 
          <ul id="itemContainer">
             <li>
-                <div class="cont_accordeon">
-                                    
-                    <div class="acordeon_contenedor">
-                        
-                        <div class="accordeon_click" id="acc_btn_1">
-                            <img src="images/cont06/acc1.png">  
-                        </div>
-                        <div class="accordeon_contenido">
-                            <img class="" src="images/cont06/cont_acc1.png">
-                        </div>
-
-                        <div class="accordeon_click">
-                            <img src="images/cont06/acc2.png">
-                        </div>
-                        <div class="accordeon_contenido">
-                            <img class="" src="images/cont06/cont_acc2.png">
-                        </div>
-
-                        <div class="accordeon_click">
-                            <img src="images/cont06/acc3.png">
-                        </div>
-                        <div class="accordeon_contenido">
-                            <img class="" src="images/cont06/cont_acc3.png">
-                        </div>
-
-                        <div class="accordeon_click">
-                            <img src="images/cont06/acc4.png">
-                        </div>
-                        <div class="accordeon_contenido">
-                            <img class="" src="images/cont06/cont_acc4.png">
-                        </div>
-
-                        <div class="accordeon_click">
-                            <img src="images/cont06/acc5.png">
-                        </div>
-                        <div class="accordeon_contenido">
-                            <img class="" src="images/cont06/cont_acc5.png">
-                        </div>
-
-                        <div class="accordeon_click">
-                            <img src="images/cont06/acc6.png">
-                        </div>
-                        <div class="accordeon_contenido">
-                            <img class="" src="images/cont06/cont_acc6.png">
-                        </div>                        
-                        <!-- -->
-                    </div>
-                </div>
-                <div class="btnExtras posExtras1">
-                    <div class="cajaResalt"> 
-                        <div>                       
-                            <button data-opacity="true" data-id-cont-not-lert="C1" title="Tener en Cuenta" class="op_not_lert tenerCuenta1"></button> 
-                        </div>                                        
-                    </div>
-                </div>
-
-                <div class="btnExtras posExtras2">
-                    <div class="cajaResalt"> 
-                        <div>                       
-                            <button data-opacity="true" data-href="https://www.oxfam.org/es/iguales/calculadora-de-la-desigualdad" class="calculadora"></button> 
-                        </div>                                        
-                    </div>
-                </div>
-                
-                <img src="images/cont06/fondo.png"><!---->
-
-                <p class="posText">Haga clic en las pestañas para ver más información.</p>
+                <img src="images/cont06/slide1.png">
+            </li>
+            <li>
+                <img src="images/cont06/slide2.png">
+            </li>
+            <li>
+                <img src="images/cont06/slide3.png">
+            </li>
+            <li>
+                <img src="images/cont06/slide4.png">
+            </li>
+            <li>
+                <img src="images/cont06/slide5.png">
             </li>
         </ul>
     </div>
