@@ -1,4 +1,4 @@
 $("document").ready(function(){
     
-    $("#acc_btn_1").trigger("click")
+    //$("#acc_btn_1").trigger("click")
 });
