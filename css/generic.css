@@ -109,7 +109,13 @@
     height: 47px;
     border: 0px;
 }
-
+.calculadora1{
+    background: url(../images/btnCalculadora1.png) no-repeat center;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    border: 0px;
+}
 .btn_pdf{
     background: url(../images/bt_pdf.svg) no-repeat center;
     background-size: 40px 40px;

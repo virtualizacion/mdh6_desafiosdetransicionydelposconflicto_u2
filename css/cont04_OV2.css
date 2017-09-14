@@ -58,6 +58,19 @@ body{
     position: absolute;
     cursor: pointer;
 }
+.btnExtras4{
+    margin-top: -198px;
+    margin-left: 407px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.btnExtras5{
+    margin-top: -198px;
+    margin-left: 599px;
+    position: absolute;
+    cursor: pointer;
+}
 .cont{
     position: absolute;
     left: 50%;
@@ -85,30 +98,9 @@ body{
     margin-left: 426px;
 }
 /*-------------------------------------------------*/
-.contP1{
-    overflow: hidden;
-    width: 784px;
-    height: 155px;
-    position: absolute;
-    margin: 155px 0px 0px 40px;
-    border: 1px solid;
-    background-color: white;
-    padding: 15px;
-}
-
-.btnP1{
-    /*width: 208px;
-    height: 72px;*/
-    cursor: pointer;
-} 
-
-.btnP1:hover{
-  background-color: #0b082b;  
-}
-
 .btn_tab_col{
     background-color: transparent;
-    border: 1px solid;
+    /*border: 1px solid;*/
     width: 139px;
     height: 183px;
 }
